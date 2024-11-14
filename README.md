@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# GymLog 💪
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An App to log and Analyse your workout routine.
 
 ## Get started
 
@@ -9,11 +9,23 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm install
    ```
+   or
+   ```bash
+   bun install
+   ```
 
-2. Start the app
+2. Start the app with Expo server
 
    ```bash
     npx expo start
+   ```
+   or
+   ```bash
+    bun expo start
+   ```
+## To Run Natively
+   ```bash
+   bun expo run:android
    ```
 
 In the output, you'll find options to open the app in a
